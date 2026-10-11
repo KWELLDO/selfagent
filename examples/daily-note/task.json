@@ -1,0 +1,17 @@
+{
+  "goal": "调研 CORDIS 插件框架的最新版本情况，写一份简短调研笔记到沙箱文件",
+  "tasks": [
+    {
+      "id": "task-1",
+      "description": "用 http-get 获取 https://registry.npmjs.org/@cordisjs/core 的包信息，提取最新版本号、发布时间、描述"
+    },
+    {
+      "id": "task-2",
+      "description": "用 fs-write 把调研结果写成 state/sandbox/cordis-research.md，包含：最新版本、发布时间、简介、你的三句话评价"
+    },
+    {
+      "id": "task-3",
+      "description": "用 task-update 把 task-1 和 task-2 标记为 done，然后调用 finish 总结"
+    }
+  ]
+}

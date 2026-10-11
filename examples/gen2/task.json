@@ -1,0 +1,6 @@
+{
+  "goal": "验证知识传承：第二代 Agent 应加载前代记忆",
+  "tasks": [
+    {"id": "t1", "description": "用 memory-read(scope=long) 检查是否有前代传承的记忆，用 finish 总结"}
+  ]
+}
